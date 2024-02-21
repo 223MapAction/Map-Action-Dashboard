@@ -1,0 +1,487 @@
+img {
+  width: 100%;
+}
+
+.btn-colored {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #38a0db, #38a0db, #38a0db);
+  background-size: 100%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.nb {
+  border: none;
+}
+.btn-action {
+  display: block;
+  outline: none;
+  width: 100%;
+  border: none;
+  margin: 1rem 0;
+  border-radius: 15px !important;
+  background-image: linear-gradient(to right, #38a0db, #38a0db, #38a0db);
+  background-size: 100%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.i {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i i {
+  transition: 0.3s;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.map-color {
+  color: #38a0db;
+}
+
+.red-color {
+  color: red;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.pb-3 {
+  padding-bottom: 3em;
+}
+
+.t-center {
+  text-align: center;
+}
+th {
+  font-size: 16px;
+  color: #38a0db;
+}
+td {
+  font-size: 13px;
+}
+
+/* .auth-wrapper {
+	display: flex;
+	background-image: url('assets/img/map-bg-1.jpg');
+  } */
+
+.button {
+  /* float: left; */
+  /* min-width: 150px;
+	max-width: 250px; */
+  display: block;
+  /* margin: 1em; */
+  padding: 1em 2em;
+  border: none;
+  background: none;
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  color: #38a0db;
+  border: 1px solid;
+}
+.button:focus {
+  outline: none;
+}
+.button > span {
+  vertical-align: middle;
+}
+.button--round-l {
+  border-radius: 40px;
+}
+.button--text-upper {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.button--text-thick {
+  font-weight: 600;
+}
+/* Pipaluk */
+.button--pipaluk {
+  width: 240px;
+  padding: 1.5em 3em;
+}
+.button:hover {
+  background-color: #38a0db;
+  border: 1px solid;
+  color: white;
+}
+
+.logo-front {
+  width: 30%;
+}
+
+/* SLIDE */
+
+a.button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 120px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.btnLightBlue {
+  background: #5dc8cd;
+}
+.btnFade.btnLightBlue:hover {
+  background: #01939a;
+}
+.btnLightBlue.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #1e8185;
+}
+
+.btnLightBlue.btnBorder {
+  box-shadow: 0px 0px 0px 0px #01939a;
+}
+.btnSlide.btnBlueGreen {
+  background: 0;
+}
+
+.btnSlide .top {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 120px;
+  height: 50px;
+  background: #00ae68;
+  z-index: 10;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+
+.btnSlide.btnBlueGreen .top {
+  background: #00ae68;
+}
+
+.btnSlide.btnLightBlue .top {
+  background: #5dc8cd;
+}
+
+.btnSlide.btnOrange .top {
+  background: #ffaa40;
+}
+
+.btnSlide.btnPurple .top {
+  background: #a74982;
+}
+
+.btnSlide .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 50px;
+  color: #000;
+  z-index: 5;
+  border-radius: 5px;
+}
+
+.btnSlide:hover .top {
+  top: 40px;
+}
+
+.boutton {
+  /* float: left; */
+  /* min-width: 150px;
+	max-width: 250px; */
+  display: block;
+  border: none;
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  color: #38a0db;
+  border: 1px solid;
+  font-size: 12px;
+  font-style: italic;
+  padding: 6px;
+}
+
+.boutton:hover {
+  background-color: #38a0db;
+  border: 1px solid;
+  color: white;
+}
+.danger {
+  color: red;
+}
+
+/* Map */
+
+/* .icon-marker {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 3.6em;
+	height: 3.6em;
+	font-size: 0.7em;
+	font-weight: bold;
+	background-color: red;
+	border-radius: 100%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .9);
+} */
+/* .icon-marker:hover .icon-marker-tooltip {
+	display: block;
+} */
+
+.icon-marker-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: -85%;
+  width: 16em;
+  font-size: 1.4em;
+  background: white;
+  padding: 1em;
+  border-radius: 0.4em;
+  /* margin-bottom: 1em; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.icon-marker-tooltip img {
+  width: 66%;
+  margin-bottom: 1em;
+  background: #aad3df;
+}
+
+.icon-marker-tooltip:before {
+  display: block;
+  position: absolute;
+  bottom: -0.6em;
+  left: 50%;
+  content: "";
+  width: 1.4em;
+  height: 1.4em;
+  background-color: blue-gray;
+  transform: rotate(45deg);
+  margin-left: -0.7em;
+}
+.icon-marker-tooltip h2 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+.icon-marker-tooltip h3 {
+  font-size: 1.2em;
+  margin: 0.1em 0;
+  font-weight: normal;
+  color: blue-grey;
+}
+.icon-marker-tooltip ul,
+.icon-marker-tooltip p {
+  font-weight: normal;
+}
+.icon-marker-tooltip ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.6em 0 0;
+}
+
+/* Colour of your bars */
+/* .ct-series-a .ct-bar {
+	stroke:  #38e6d8;
+	
+  }
+  .ct-series-b .ct-bar {
+	stroke:  #006aa7;
+	
+  }
+  .ct-series-c .ct-bar {
+	stroke:  rgb(177, 51, 51);
+  }
+   */
+.main-panel {
+  background: rgb(42, 74, 100) !important;
+}
+.text-white {
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: #38a0db;
+  width: 100%;
+}
+.btn-red {
+  background-color: white;
+  color: rgb(158, 13, 13);
+  width: 100%;
+}
+.bg-white {
+  background: white;
+}
+
+.admin-s {
+  background: rgb(35, 95, 19);
+  color: white;
+  padding: 3px;
+  border-radius: 10%;
+  text-transform: uppercase;
+}
+
+.elu-s {
+  background: rgb(134, 126, 4);
+  color: white;
+  padding: 3px;
+  border-radius: 11px;
+  text-transform: uppercase;
+}
+
+.business-s {
+  background: rgb(4, 119, 185);
+  color: white;
+  padding: 3px;
+  border-radius: 10%;
+}
+
+.visitor-s {
+  background: rgb(177, 53, 59);
+  color: white;
+  padding: 3px;
+  border-radius: 11px;
+}
+.citizen-s {
+  background: rgb(235, 134, 39);
+  color: white;
+  padding: 3px;
+  border-radius: 11px;
+}
+.reporter-s {
+  background: rgb(10, 179, 170);
+  color: white;
+  padding: 3px;
+  border-radius: 10%;
+}
+
+.encharge-s {
+  background: rgb(64, 179, 10);
+  color: white;
+  padding: 3px;
+  border-radius: 10%;
+}
+
+img.width-half {
+  width: 50% !important;
+}
+.card-stats .numbers {
+  /* font-size: 2em;
+  text-align: right;  */
+  font-size: 23px;
+  text-align: right;
+  font-weight: 900;
+  height: 100px;
+}
+.text-card-title {
+  font-size: 17px;
+}
+.incident-count {
+  font-size: 35px;
+  font-weight: 700;
+}
+.card.card-stats .text-card.admin-stats {
+  height: 150px;
+}
+.text-card-details {
+  font-size: 20px;
+  font-weight: 600 !important;
+  font-style: italic;
+}
+.elu-dashboard-count-title {
+  font-size: 15px;
+}
+.elu-dashboard-counter {
+  font-size: 35px;
+  font-weight: 700;
+}
+.upload-login-bgimg-row.row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-bgimg-file-input label {
+  width: 100%;
+  margin-bottom: 0 !important;
+  padding: 15px;
+  border-color: #3e96d1 !important;
+  border-radius: 25px;
+}
+.upload-new-bgimg-submit-btn {
+  padding: 11px;
+  width: 100%;
+  border-color: #3e96d1 !important;
+  font-size: 21px;
+  font-weight: 600;
+  color: #3e96d1;
+  border-radius: 25px;
+}
+.upload-new-bgimg-submit-btn:hover,
+.upload-new-bgimg-submit-btn:active,
+.upload-new-bgimg-submit-btn:focus {
+  background: #3e96d1 !important;
+  color: #fff !important;
+}
+.manage-login-page-bgimg-container {
+  padding: 25px;
+  background: #ececec30;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.uploaded-img-preview-container {
+  margin-bottom: 25px;
+  padding: 15px;
+}
+.update-login-bgimg-input-label {
+  color: #3e96d1 !important;
+  border-bottom: 1px solid #3e96d136 !important;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
